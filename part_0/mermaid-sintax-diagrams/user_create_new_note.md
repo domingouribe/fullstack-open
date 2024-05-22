@@ -7,15 +7,15 @@ The next block it a Mermaid code for generate a simply diagram:
 ```mermaid
 
 flowchart TD
-A((Inicio))-->
-B[Usuario abre la App en la URL \n https://studies.cs.helsinki.fi/exampleapp/notes] -->
-C[Usuario lee algunos mensajes de los \n usuarios anteriores antes de escribir el suyo]-->
-D[Usuario busca al final de la lista el \n formulario para escribir su mensaje] -->
-E[Usuario finalmente escribe su propio mensaje] -->
-F[Usuario presiona el botón de \n enviar mensaje y envía su mensaje]-->
-G[El servidor procesa los datos del mensaje \n del usuario y envia una respuesta actualizando la página]-->
-H[La página actualizada muestra ahora el mensaje del usuario al final de la lista]-->
-I[Usuario lee su mensaje, se alegra del resultado y cierra la App]-->
-J((Fin))
+A((Start))-->
+B[User opens the App on the next URL: \n https://studies.cs.helsinki.fi/exampleapp/notes] -->
+C[User reads previus users's notes before writing his own]-->
+D[User finds to the final on list the web form to writing his note] -->
+E[User finally write his own note] -->
+F[User pushes the Send Button and send his own note to server]-->
+G[The server proccesing the data from user's note and send a response updating the page]-->
+H[The updated page now shows the user's note to the final of the list]-->
+I[User reads his own note, is happy with the result, and close the App]-->
+J((End))
 
 ```
