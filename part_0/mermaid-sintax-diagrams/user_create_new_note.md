@@ -1,8 +1,13 @@
-# User create new note in App
+# User create new note in App flow
+
+## Excercise 0.4
+
+The next block it a Mermaid code for generate a simply diagram:
+
 ```mermaid
 
 flowchart TD
-A((Inicio))--> 
+A((Inicio))-->
 B[Usuario abre la App en la URL \n https://studies.cs.helsinki.fi/exampleapp/notes] -->
 C[Usuario lee algunos mensajes de los \n usuarios anteriores antes de escribir el suyo]-->
 D[Usuario busca al final de la lista el \n formulario para escribir su mensaje] -->
